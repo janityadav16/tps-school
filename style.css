@@ -1,0 +1,7 @@
+.navbar ul{
+    background-color:red;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+
+}
