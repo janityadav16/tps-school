@@ -3,5 +3,6 @@
     display: inline-block;
     cursor: pointer;
     text-decoration: none;
+    justify-content: center;
 
 }
