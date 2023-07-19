@@ -1,8 +1,80 @@
-.navbar ul{
-    background-color:red;
-    display: inline-block;
-    cursor: pointer;
-    text-decoration: none;
-    justify-content: center;
+header {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+}
 
+nav {
+    margin-left: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    color: white;
+    padding: 0 10px 0 0;
+    max-width: 80px;
+    text-align: center;
+}
+
+li a:hover {
+    color: black;
+}
+
+li a {
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.gallery-section {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.gallery-section h2 {
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    flex-basis: calc(33.33% - 10px);
+    overflow: hidden;
+    padding: 0 5px 0 5px;
+
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
 }
