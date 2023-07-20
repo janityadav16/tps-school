@@ -99,6 +99,12 @@ li {
     display: inline;
 }
 
+.academics-content p{
+    text-align: justify;
+    font-family: Verdana;
+    line-height: 30px;
+}
+
 .gallery-section {
     padding: 20px;
     background-color: white;
@@ -128,4 +134,34 @@ li {
     height: auto;
     border: 1px solid black;
     border-radius: 10px;
+}
+
+.contact-section{
+    background-color: grey;
+    padding: 30px
+}
+.contact-section h1{
+    text-align: center;
+    font-size: 30px;
+    font-style: verdana;
+}
+
+.contact-section p{
+    text-align: justify;
+    font-family: Verdana;
+    line-height: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
