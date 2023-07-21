@@ -1,7 +1,6 @@
 
-.title b {
+.b {
     font-weight: bold;
-    text-align: center;
     padding:20px;
     margin:15px;
 }
@@ -61,6 +60,7 @@ li a {
 
 .about-content{
     background-color: grey;
+    padding: 5px 10px 0px 10px;
     color:white;
 
 }
