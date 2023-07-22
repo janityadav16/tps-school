@@ -1,178 +1,98 @@
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
 
-.h1 {
-    font-weight: bold;
-    padding:20px;
-    margin:15px;
-}
-
-header {
-    background-color: red;
-    display: flex;
-    align-items: center;
-    z-index: 1000;
-    position:static;
-    width: 100%;
-}
-
-nav {
-    margin-left: auto;
-}
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-li {
-    color: white;
-    padding: 0 10px 0 0;
-    max-width: 80px;
-    text-align: center;
-}
-
-li a:hover {
-    color: black;
-}
-
-li a {
-    text-decoration: none;
-    font-family: Verdana;
-    font-size: 15px;
-    font-weight: 100;
-    color: white;
-}
-
-
-.social-links {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.social-links a {
-    color: black;
-    text-decoration: none;
-    margin: 10px;
+  header {
+    background-color: aqua;
     padding: 10px;
-    font-size:20px;
-}
-
-.about-content{
-    background-color: grey;
-    padding-top:none;
-    padding: 35px;
-    margin: 0px;
-    color:white;
-}
-
-.about-content p {
-    text-align: justify;
-    font-family: Verdana;
-    line-height: 30px;
-}
-.about-section h2{
-    font-family: Verdana;
-    font-size: 30px;
-    text-align:center;
-    color:black;
-}
-.about-section p{
-    text-align: justify;
-    margin: 10px;
-    padding:15px;
-}
-
-.row{
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-li {
-    color: black;;
-    padding: 0 10px 0 0;
-    max-width: 80px;
     text-align: center;
-    display: inline;
-}
-.academics-content{
-    background-color: grey;
-    padding: 5px 10px 0px 10px;
-    margin: 25px;
-    color:white;
-    text-align: justify;
-    font-family: Verdana;
-    line-height: 30px;
-}
+    color: black;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+  }
 
-.academics-content p{
-    background-color: grey;
-    padding: 5px 10px 0px 10px;
-    margin: 25px;
-    color:white;
-    text-align: justify;
-    font-family: Verdana;
-    line-height: 30px;
-}
-
-.gallery-section {
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
-    background-color: white;
+  }
+  
+  .tile {
+    background-color: #fff;
+    padding: 20px;
     text-align: center;
-}
-
-.gallery-section h2 {
-    font-family: Verdana;
-    font-size: 30px;
-}
-
-.gallery-row {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.gallery-item {
-    flex-basis: calc(33.33% - 10px);
-    overflow: hidden;
-    padding: 0 5px 0 5px;
-
-}
-
-.gallery-item img {
-    width: 100%;
-    height: auto;
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
-.contact-section{
-    background-color: grey;
-    padding: 30px;
-}
-.contact-section h1{
-    text-align: center;
-    font-size: 30px;
+  }
+  
+  .tile h1 {
+    font-size: 48px;
+    color: #444;
     font-style: verdana;
-}
+  }
+  
+  .social-links a {
+    margin-right: 10px;
+    text-decoration: none;
+  }
 
-.contact-section p{
-    text-align: justify;
-    font-family: Verdana;
-    line-height: 30px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+  .about-content {
+    margin-top: 20px;
+    background-color: antiquewhite;
+  }
+  
+  .about-content h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
     text-align: center;
-}
+  }
 
-.footer-content {
+.facilities-section ul {
+    list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-}
+    justify-content: space-between;
+  }
+  
+  .facilities-section li {
+    width: 24%; 
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .achivement-section{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 40px;
+    font-style: verdana;
+  }
+  
+  .gallery-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .contact-section p {
+    margin-bottom: 10px;
+  }
+ 
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
