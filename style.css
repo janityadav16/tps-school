@@ -5,14 +5,17 @@ body {
 }
 
 header {
-  background-color: #f0f0f0;
-  padding: 10px;
-  text-align: center;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  position: static;
+  width: 100%;
 }
 
 .navbar ul {
   list-style: none;
-  padding: 0;
+  padding: 5px;
 }
 
 .navbar li {
