@@ -34,7 +34,7 @@ ul {
 li {
   color: white;
   padding: 5px;
-  width: 75px;
+  width: 100px;
   text-align: center;
 }
 
@@ -91,8 +91,6 @@ main {
   background-color: cadetblue;
 }
 
-
-
 .about-content h2 {
   text-align: center;
   font-size: 45px;
@@ -113,7 +111,13 @@ main {
   padding: 15px;
   text-align: center;
 }
-
+.academics-content{
+margin: 25px;
+padding: 15px;
+text-align: center;
+font-family: Verdana;
+background-color: cadetblue;
+}
 .gallery-item img {
   max-width: 100%;
   height: auto;
