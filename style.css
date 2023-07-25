@@ -138,6 +138,9 @@ background-color: cadetblue;
 .contact-section{
   text-align: center;
   font-size: 40px;
+  background-color: #444;
+  color:whitesmoke;
+  padding-left: 40px;
 }
 
 .contact-section p {
