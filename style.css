@@ -58,7 +58,7 @@ main {
 }
 
 .tile {
-  background-color: cadetblue;
+  background-color:aliceblue;
   font-family: verdana;
   padding: 30px;
   text-align: center;
@@ -75,6 +75,18 @@ main {
   margin-right: 10px;
   text-decoration: none;
 }
+
+
+.facebook_logo {
+  fill: white;
+  stroke: black;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: white;
+  padding: 10px; /* your icon's total width & height is 40px  */
+  border-radius: 8px;
+}
 /* for about-section */
 .about-content {
   margin: 25px;
@@ -82,7 +94,7 @@ main {
   font-size: 20px;
   text-align: center;
   font-family: Verdana;
-  background-color: cadetblue;
+  background-color: grey;
 }
 
 .about-content a{
@@ -90,7 +102,7 @@ main {
   padding: 15px;
   text-align: center;
   font-family: Verdana;
-  background-color: cadetblue;
+  background-color: grey;
 }
 
 .about-content h2 {
@@ -98,6 +110,11 @@ main {
   font-size: 45px;
 }
 /* for facilities-section */
+
+.facilities-section{
+background-color: aliceblue;
+}
+
 .facilities-section ul {
   list-style: none;
   display: flex;
@@ -113,6 +130,17 @@ main {
   padding: 15px;
   text-align: center;
 }
+/* for achivement-section */
+.achivement-section{
+background-color: grey;
+padding: 20px;
+}
+
+.achivement-content{
+font-size:20px;
+font-family: Verdana;
+text-align: center;
+}
 /* for academics section */
 .academics-section{
   padding: 20px;
@@ -124,11 +152,11 @@ margin: 25px;
 padding: 15px;
 text-align: center;
 font-family: Verdana;
-background-color: cadetblue;
+background-color: aliceblue;
 }
 /* for gallery section */
 .gallery-section{
-  background-color: cadetblue;
+  background-color: grey;
 }
 
 .gallery-item img {
@@ -151,8 +179,8 @@ background-color: cadetblue;
 .contact-section{
   text-align: center;
   font-size: 40px;
-  background-color: #444;
-  color:whitesmoke;
+  background-color: aliceblue;
+  color:black;
    padding: 20px;
 }
 
