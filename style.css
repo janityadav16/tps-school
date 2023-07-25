@@ -118,10 +118,16 @@ text-align: center;
 font-family: Verdana;
 background-color: cadetblue;
 }
+
+.gallery-section{
+  background-color: cadetblue;
+}
+
 .gallery-item img {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
+  border-radius:30px;
 }
 
 .gallery-row {
@@ -153,4 +159,6 @@ footer {
   background-color: #f0f0f0;
   padding: 10px;
   text-align: center;
+  width: 100%;
+  border: 2px solid black;
 }
