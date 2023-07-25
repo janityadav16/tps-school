@@ -72,21 +72,27 @@ main {
 }
 /* for social-links */
 .social-links a {
-  margin-right: 10px;
+  margin: 20px;
   text-decoration: none;
 }
 
-
-.facebook_logo {
-  fill: white;
-  stroke: black;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background: white;
-  padding: 10px; /* your icon's total width & height is 40px  */
-  border-radius: 8px;
+.facebook{
+display: inline-block;
+font-size: inherit;
+text-align: center;
+height: 3em;
+overflow: visible;
+vertical-align: -0.25em;
 }
+.whatsapp{
+    display: inline-block;
+    font-size: inherit;
+    text-align: center;
+    height: 3em;
+    overflow: visible;
+    vertical-align: -0.25em;
+}
+
 /* for about-section */
 .about-content {
   margin: 25px;
