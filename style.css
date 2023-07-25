@@ -4,28 +4,51 @@ body {
   color: #333;
 }
 
+ h2 {
+  text-align: center;
+  font-size: 45px;
+}
+
 header {
   background-color: red;
   display: flex;
   align-items: center;
   z-index: 1000;
   position: static;
+  width: auto;
   width: 100%;
 }
 
-.navbar ul {
-  list-style: none;
+nav {
+  margin-left: auto;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  color: white;
   padding: 5px;
+  width: 75px;
+  text-align: center;
 }
 
-.navbar li {
-  display: inline-block;
-  margin-right: 15px;
+li:hover {
+  color: black;
+  background-color: black;
 }
 
-.navbar a {
-  color: #333;
+li a {
   text-decoration: none;
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: 100;
+  color: white;
 }
 
 main {
@@ -42,21 +65,37 @@ main {
 
 .tile h1 {
   font-size: 36px;
+  
   color: #444;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .social-links a {
   margin-right: 10px;
+  text-decoration: none;
 }
 
 .about-content {
-  margin-top: 20px;
+  margin: 25px;
+  padding: 15px;
+  text-align: center;
+  font-family: Verdana;
+  background-color: cadetblue;
 }
 
+.about-content a{
+  margin: 25px;
+  padding: 15px;
+  text-align: center;
+  font-family: Verdana;
+  background-color: cadetblue;
+}
+
+
+
 .about-content h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  text-align: center;
+  font-size: 45px;
 }
 
 .facilities-section ul {
@@ -70,7 +109,7 @@ main {
 .facilities-section li {
   width: 24%; 
   margin-bottom: 10px;
-  background-color: #f0f0f0;
+  background-color: royalblue;
   padding: 15px;
   text-align: center;
 }
@@ -92,36 +131,19 @@ main {
   width: 32%;
 }
 
+.contact-section{
+  text-align: center;
+  font-size: 40px;
+}
+
 .contact-section p {
   margin-bottom: 10px;
+  text-align: left;
+  font-size: 25px;
 }
 
 footer {
   background-color: #f0f0f0;
   padding: 10px;
   text-align: center;
-}
-
-body:before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: 4px 4px;
-}
-.navbar-ctnr ul li a{
-  text-decoration: none;
-  color: black;
-  height: 50px;
-  
-}
-.navbar-ctnr ul li a:hover{
-  text-decoration: none;
-  background-color: black;
-  color: white;
-}
-header {
-  background-color: red;
 }
