@@ -153,16 +153,17 @@ text-align: center;
 }
 /* for academics section */
 .academics-section{
-  padding: 20px;
-  font-size: 20px;
-  }
+  text-align: center;
+  font-size: 40px;
+  background-color: aliceblue;
+  color:black;
+   padding: 20px;
+}
 
-.academics-content{
-margin: 25px;
-padding: 15px;
-text-align: center;
-font-family: Verdana;
-background-color: aliceblue;
+.academics-section p {
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 25px;
 }
 /* for gallery section */
 .gallery-section{
@@ -211,3 +212,4 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
+
