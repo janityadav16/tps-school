@@ -2,6 +2,8 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  padding: 0;
+  margin: 0;
   color: #333;
 }
 
@@ -13,6 +15,7 @@ body {
 header {
   background-color: red;
   display: flex;
+  border-radius: 5px;
   align-items: center;
   z-index: 1000;
   position: static;
@@ -53,8 +56,8 @@ li a {
 /* for main part */
 main {
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .tile {
@@ -96,8 +99,8 @@ vertical-align: -0.25em;
 
 /* for about-section */
 .about-content {
-  margin: 25px;
-  padding: 15px;
+  margin: 0;
+  padding:20px;
   font-size: 20px;
   text-align: center;
   font-family: Verdana;
@@ -105,8 +108,8 @@ vertical-align: -0.25em;
 }
 
 .about-content a{
-  margin: 25px;
-  padding: 15px;
+  margin: 0px;
+  padding: 0px;
   text-align: center;
   font-family: Verdana;
   background-color: grey;
