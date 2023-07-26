@@ -86,12 +86,12 @@ vertical-align: -0.25em;
 }
 
 .whatsapp{
-    display: inline-block;
-    font-size: inherit;
-    text-align: center;
-    height: 3em;
-    overflow: visible;
-    vertical-align: -0.25em;
+display: inline-block;
+font-size: inherit;
+text-align: center;
+height: 3em;
+overflow: visible;
+vertical-align: -0.25em;
 }
 
 /* for about-section */
@@ -120,6 +120,9 @@ vertical-align: -0.25em;
 
 .facilities-section{
 background-color: aliceblue;
+height: 100%;
+width: 100%;
+padding-bottom: 40px;
 }
 
 .facilities-section ul {
