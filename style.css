@@ -96,6 +96,14 @@ height: 3em;
 overflow: visible;
 vertical-align: -0.25em;
 }
+.instagram{
+  display: inline-block;
+font-size: inherit;
+text-align: center;
+height: 3em;
+overflow: visible;
+vertical-align: -0.25em;
+}
 
 /* for about-section */
 .about-content {
@@ -175,8 +183,7 @@ text-align: center;
 
 .gallery-item img {
   max-width: 98%;
-  border-radius:30px;
-  border: 2px solid black;
+  border-radius:25px;
 }
 
 .gallery-row {
