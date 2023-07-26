@@ -174,9 +174,9 @@ text-align: center;
 }
 
 .gallery-item img {
-  max-width: 100%;
-  height: auto;
+  max-width: 98%;
   border-radius:30px;
+  border: 2px solid black;
 }
 
 .gallery-row {
@@ -187,7 +187,7 @@ text-align: center;
 }
 
 .gallery-item {
-  width: 32%;
+  width: 33%;
 }
 /* for contact-section */
 .contact-section{
