@@ -227,6 +227,10 @@ text-align: center;
   text-align: left;
   font-size: 25px;
 }
+.contact-section a {
+  text-decoration: none;
+}
+
 /* for footer section */
 footer {
   background-color: #333;
