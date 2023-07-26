@@ -4,7 +4,6 @@ body {
   line-height: 1.6;
   padding: 0;
   margin: 0;
-  color: #333;
 }
 
  h2 {
@@ -69,8 +68,7 @@ main {
 
 .tile h1 {
   font-size: 36px;
-  
-  color: #444;
+  color: burlywood;
   margin: 20px;
 }
 /* for social-links */
@@ -81,6 +79,7 @@ main {
 
 .facebook{
 display: inline-block;
+color: black;
 font-size: inherit;
 text-align: center;
 height: 3em;
@@ -90,14 +89,7 @@ vertical-align: -0.25em;
 
 .whatsapp{
 display: inline-block;
-font-size: inherit;
-text-align: center;
-height: 3em;
-overflow: visible;
-vertical-align: -0.25em;
-}
-.instagram{
-  display: inline-block;
+color: black;
 font-size: inherit;
 text-align: center;
 height: 3em;
@@ -196,6 +188,8 @@ text-align: center;
 .gallery-item {
   width: 33%;
 }
+/* for yearly plan */
+
 /* for contact-section */
 .contact-section{
   text-align: center;
