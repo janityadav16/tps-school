@@ -248,6 +248,14 @@ main {
 	text-decoration: none;
 }
 
+.email{
+  color: black;
+}
+
+.email:hover{
+  color: red;
+}
+
 /* for footer section */
 footer {
 	background-color: black;
