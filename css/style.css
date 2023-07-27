@@ -36,7 +36,7 @@ ul {
 }
 
 li {
-	color: white;
+	color: #0072c6 ;
 	padding: 5px;
 	width: 100px;
 	text-align: center;
@@ -52,7 +52,7 @@ li a {
 	font-family: Verdana;
 	font-size: 15px;
 	font-weight: 100;
-	color: white;
+	color: #0072c6 ;
 }
 
 /* for main part */
@@ -71,7 +71,7 @@ main {
 
 .tile h1 {
 	font-size: 36px;
-	color: burlywood;
+	color: #0072c6 ;
 	margin: 20px;
 }
 
@@ -107,6 +107,7 @@ main {
 	padding: 20px;
 	font-size: 20px;
 	text-align: center;
+  color: #333333;
 	font-family: Verdana;
 	background-color: grey;
 }
@@ -115,12 +116,14 @@ main {
 	margin: 0px;
 	padding: 0px;
 	text-align: center;
+  color: #333333;
 	font-family: Verdana;
 	background-color: grey;
 }
 
 .about-content h2 {
 	text-align: center;
+  color: #333333;
 	font-size: 45px;
 }
 
@@ -159,6 +162,7 @@ main {
 	font-size: 20px;
 	font-family: Verdana;
 	text-align: center;
+  color: #333333;
 }
 
 #gallery-row {
@@ -177,6 +181,7 @@ main {
 	font-size: 20px;
 	text-align: center;
 	font-family: Verdana;
+  color: #333333;
 	background-color: aliceblue;
 }
 
@@ -201,31 +206,32 @@ main {
 	width: 33%;
 }
 
-/* for yearly plan */
+/* for details */
 
-.yearlyplan-section {
+.details-section {
 	text-align: center;
 	padding: 30px;
 	margin: 0px;
 	background-color: blue;
 }
 
-.yearlyplan-section h1 {
+.details-section h1 {
 	font-size: 40px;
+  font-family: verdana;
 }
 
 .action-button {
 	display: inline-block;
 	padding: 10px 20px;
 	background-color: #FF0000;
-	color: #FFFFFF;
+	color: #0072c6 ;
 	text-decoration: none;
 	transition: 0.3s, color 0.3s;
 }
 
 .action-button:hover {
 	background-color: black;
-	color: white;
+	color: #0072c6 ;
 }
 
 /* for contact-section */
@@ -233,7 +239,7 @@ main {
 	text-align: center;
 	font-size: 40px;
 	background-color: aliceblue;
-	color: black;
+	color: #0072c6 ;
 	padding: 20px;
 }
 
@@ -250,13 +256,14 @@ main {
 /* for footer section */
 footer {
 	background-color: #333;
-	color: #fff;
+	color: #0072c6 ;
 	padding: 20px;
 }
 
 .footer-content {
 	display: flex;
 	justify-content: center;
+  color: #333333;
 	align-items: center;
 	flex-wrap: wrap;
 }
