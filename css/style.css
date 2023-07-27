@@ -36,7 +36,7 @@ ul {
 }
 
 li {
-	color: #0072c6 ;
+	color: white;
 	padding: 5px;
 	width: 100px;
 	text-align: center;
@@ -52,7 +52,7 @@ li a {
 	font-family: Verdana;
 	font-size: 15px;
 	font-weight: 100;
-	color: #0072c6 ;
+	color: white;
 }
 
 /* for main part */
@@ -71,7 +71,7 @@ main {
 
 .tile h1 {
 	font-size: 36px;
-	color: #0072c6 ;
+	color: burlywood;
 	margin: 20px;
 }
 
@@ -107,7 +107,6 @@ main {
 	padding: 20px;
 	font-size: 20px;
 	text-align: center;
-  color: #333333;
 	font-family: Verdana;
 	background-color: grey;
 }
@@ -116,14 +115,12 @@ main {
 	margin: 0px;
 	padding: 0px;
 	text-align: center;
-  color: #333333;
 	font-family: Verdana;
 	background-color: grey;
 }
 
 .about-content h2 {
 	text-align: center;
-  color: #333333;
 	font-size: 45px;
 }
 
@@ -162,7 +159,6 @@ main {
 	font-size: 20px;
 	font-family: Verdana;
 	text-align: center;
-  color: #333333;
 }
 
 #gallery-row {
@@ -181,7 +177,6 @@ main {
 	font-size: 20px;
 	text-align: center;
 	font-family: Verdana;
-  color: #333333;
 	background-color: aliceblue;
 }
 
@@ -224,14 +219,14 @@ main {
 	display: inline-block;
 	padding: 10px 20px;
 	background-color: #FF0000;
-	color: #0072c6 ;
+	color: #FFFFFF;
 	text-decoration: none;
 	transition: 0.3s, color 0.3s;
 }
 
 .action-button:hover {
 	background-color: black;
-	color: #0072c6 ;
+	color: white;
 }
 
 /* for contact-section */
@@ -239,7 +234,7 @@ main {
 	text-align: center;
 	font-size: 40px;
 	background-color: aliceblue;
-	color: #0072c6 ;
+	color: black;
 	padding: 20px;
 }
 
@@ -256,14 +251,13 @@ main {
 /* for footer section */
 footer {
 	background-color: #333;
-	color: #0072c6 ;
+	color: #fff;
 	padding: 20px;
 }
 
 .footer-content {
 	display: flex;
 	justify-content: center;
-  color: #333333;
 	align-items: center;
 	flex-wrap: wrap;
 }
