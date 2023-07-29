@@ -63,7 +63,7 @@ main {
 }
 
 .tile {
-	background-color: white;
+	background-color: lavender;
 	font-family: verdana;
 	padding: 30px;
 	text-align: center;
@@ -108,7 +108,7 @@ main {
 	font-size: 20px;
 	text-align: center;
 	font-family: Verdana;
-	background-color: green;
+	background-color: pink;
 }
 
 .about-content a {
@@ -116,7 +116,7 @@ main {
 	padding: 0px;
 	text-align: center;
 	font-family: Verdana;
-	background-color: green;
+	background-color: pink;
 }
 
 .about-content h2 {
@@ -127,7 +127,7 @@ main {
 /* for facilities-section */
 
 .facilities-section {
-	background-color: white;
+	background-color: lavender;
 	height: 100%;
 	width: 100%;
 	padding-bottom: 20px;
@@ -151,7 +151,7 @@ main {
 
 /* for achivement-section */
 .achivement-section {
-	background-color: green;
+	background-color: pink;
 	padding: 20px;
 }
 
@@ -177,12 +177,12 @@ main {
 	font-size: 20px;
 	text-align: center;
 	font-family: Verdana;
-	background-color: white;
+	background-color: lavender;
 }
 
 /* for gallery section */
 .gallery-section {
-	background-color: green;
+	background-color: pink;
 }
 
 .gallery-item img {
@@ -208,7 +208,7 @@ main {
 	text-align: center;
 	padding: 30px;
 	margin: 0px;
-	background-color: white;
+	background-color: lavender;
 }
 
 .details-section h1 {
@@ -234,7 +234,7 @@ main {
 .contact-section {
 	text-align: center;
 	font-size: 40px;
-	background-color: green;
+	background-color: pink;
 	color: black;
 	padding: 20px;
 }
