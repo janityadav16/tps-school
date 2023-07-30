@@ -19,6 +19,7 @@ body {
 .logo {
     text-align: center;
     margin-bottom: 20px;
+    background-repeat: no-repeat;
 }
 
 .logo img {
@@ -37,7 +38,7 @@ input[type="password"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid whitesmoke;
     border-radius: 4px;
     outline: none;
 }
@@ -45,8 +46,8 @@ input[type="password"] {
 button {
     width: 100%;
     padding: 12px;
-    background-color: #e50914;
-    color: #fff;
+    background-color: red;
+    color: white;
     font-size: 16px;
     border: none;
     border-radius: 4px;
@@ -54,7 +55,7 @@ button {
 }
 
 button:hover {
-    background-color: #f40612;
+    background-color: red;
 }
 
 p {
@@ -63,7 +64,7 @@ p {
 }
 
 a {
-    color: #e50914;
+    color: red;
     text-decoration: none;
 }
 
