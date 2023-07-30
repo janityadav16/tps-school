@@ -10,12 +10,12 @@ body {
 }
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     position: absolute;
     align-items: center;
     padding: 15px 30px;
     background-color: black;
-
+    opacity: 0.8;
     width: 100%;
     
 }
@@ -116,6 +116,7 @@ footer {
     padding: 20px;
     color: white;
     text-align: center;
+    opacity: 0.8;
 }
 footer p {
     margin: 0;
