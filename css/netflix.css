@@ -9,7 +9,7 @@ body {
     width: 100%;
 }
 
-.container {
+.log-in-section {
     max-width: 400px;
     padding:40px;
     background-color: black;
@@ -31,6 +31,16 @@ body {
 }
 .content {
     text-align: center;
+    z-index: -1;
+}
+.content p{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+.content a{
+    text-decoration: none;
+    text-align: right;
 }
 
 input[type="text"],
@@ -55,7 +65,7 @@ button {
 }
 
 button:hover {
-    background-color: red;
+    background-color: black;
 }
 
 p {
