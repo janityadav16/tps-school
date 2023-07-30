@@ -21,6 +21,7 @@ header {
 }
 .netflix-logo {
     width: 150px;
+    border-radius: 100%;
 }
 .nav-links {
     list-style: none;
