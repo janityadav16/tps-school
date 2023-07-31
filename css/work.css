@@ -1,0 +1,6 @@
+.navbar a{
+    display: block;
+    text-decoration: none;
+    justify-content: space-between;
+    color: black;
+}
