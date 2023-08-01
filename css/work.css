@@ -42,3 +42,65 @@ header{
     width: 50%;
     float: left;
 }
+/* css for me section */
+.me-section{
+float: right;
+}
+.me-content{
+float: right;
+}
+
+/* css for us-section */
+.us-section{
+
+}
+
+.us-content{
+
+}
+/* css for student section */
+.student-section{
+
+}
+
+.student-content{
+
+}
+/* css for testemonial section */
+
+.testemonial-section{
+
+}
+
+.testemonial-content{
+
+}
+
+/* css for form section */
+
+.form-section{
+
+}
+
+.form-content{
+
+}
+
+/* css for footer section */
+.footer-section{
+
+}
+
+.footer-content{
+
+}
+
+/* css for contact section */
+
+.contact-section{
+
+
+}
+.contact-content{
+    
+}
