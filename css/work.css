@@ -1,0 +1,29 @@
+header{
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    width: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+.navbar li{
+    float: left;
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    justify-content: space-between;
+    color: black;
+}
