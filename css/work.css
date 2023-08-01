@@ -1,15 +1,73 @@
-.navbar ul li{
-    display: block;
-    text-decoration: none;
-    justify-content: space-between;
-    color: black;
-    line-height:40px;
-    font-style: verdana;
-    font-size: 18px;
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
-.navbar a{
-    display: block;
-    text-decoration: none;
+
+header {
+    display: flex;
     justify-content: space-between;
-    color: black;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar li:first-child {
+    margin-left: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+.home-section{
+padding: 30px;
+}
+.you-section{
+    padding: 30px;
+}
+.me-section{
+    padding: 30px;
+}
+.us-section{
+    padding: 30px;
+}
+.students-section{
+    padding: 30px;
+}
+.testimonials-section{
+    padding: 30px;
+}
+.contact-section{
+    padding: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    display: flex;
+}
+
+.footer-content {
+    margin-right: 40px;
+}
+
+.footer-content h3 {
+    margin-bottom: 10px;
 }
