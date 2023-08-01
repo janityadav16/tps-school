@@ -103,11 +103,19 @@ font-size: 20px;
 }
 /* css for student section */
 .student-section{
-
+float:left;
+word-spacing:8px;
+line-height: 40px;
+font-size: 20px;
 }
 
 .student-content{
-
+float:left;
+word-spacing:8px;
+font-style: verdana;
+border: 2px solid black;
+line-height: 35px;
+font-size: 20px;
 }
 /* css for testemonial section */
 
