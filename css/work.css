@@ -20,11 +20,13 @@ header{
     margin: 0;
     padding: 0;
     font-style: verdana;
+    word-spacing: 10px;
     font-size: 20px;
     line-height: 30px;
 }
 .navbar li{
     float: left;
+    word-spacing: 10px;
     display: inline-block;
     font-style: verdana;
     font-size: 20px;
@@ -34,6 +36,7 @@ header{
     text-decoration: none;
     justify-content: space-between;
     padding:20px;
+    word-spacing: 10px;
     font-style: verdana;
     font-size: 20px;
     color: black;
@@ -43,6 +46,7 @@ header{
 .you-section{
     float: left;
     width: 100%;
+    word-spacing: 10px;
     font-style: verdana;
     font-size: 20px;
     line-height: 30px;
@@ -53,6 +57,7 @@ header{
     text-align: left;
     line-height: 30px;
     justify-content: left;
+    word-spacing: 10px;
     font-style: verdana;
     font-size: 20px;
 }
@@ -60,30 +65,41 @@ header{
     width: 50%;
     font-style: verdana;
     font-size: 20px;
+    word-spacing: 10px;
     float: left;
     line-height: 30px;
 }
 /* css for me section */
 .me-section{
-float: right;
-line-height: 30px;
-font-style: verdana;
-    font-size: 20px;
+float:left;
+word-spacing: 10px;
+line-height: 40px;
+font-size: 20px;
 }
 .me-content{
-float: right;
+float:left;
+word-spacing: 10px;
 font-style: verdana;
-line-height: 30px;
-    font-size: 20px;
+border: 2px solid black;
+line-height: 35px;
+font-size: 20px;
 }
 
 /* css for us-section */
 .us-section{
-
+float:left;
+word-spacing: 10px;
+line-height: 40px;
+font-size: 20px;
 }
 
 .us-content{
-
+float:left;
+word-spacing: 10px;
+font-style: verdana;
+border: 2px solid black;
+line-height: 35px;
+font-size: 20px;
 }
 /* css for student section */
 .student-section{
