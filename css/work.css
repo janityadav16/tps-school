@@ -35,6 +35,8 @@ header{
 .you-content{
     width: 50%;
     float: left;
+    text-align: left;
+    justify-content: left;
 }
 .you-img section{
     width: 50%;
