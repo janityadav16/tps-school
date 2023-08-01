@@ -130,11 +130,15 @@ font-size: 20px;
 /* css for form section */
 
 .form-section{
+border-radius: 50%;
+border: 1px solid white;
 
 }
 
 .form-content{
-
+    border-radius: 50%;
+    border: 1px solid white;
+    align-items: center;
 }
 
 /* css for footer section */
