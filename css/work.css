@@ -79,7 +79,7 @@ float: right;
 /* css for form section */
 
 .form-section{
-
+    
 }
 
 .form-content{
@@ -88,10 +88,13 @@ float: right;
 
 /* css for footer section */
 .footer-section{
-
+    text-decoration: none;
+    text-align: center;
 }
 
 .footer-content{
+text-decoration: none;
+text-align: center;
 
 }
 
@@ -102,5 +105,5 @@ float: right;
 
 }
 .contact-content{
-    
+
 }
