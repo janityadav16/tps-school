@@ -137,13 +137,10 @@ font-size: 20px;
 /* css for testemonial section */
 
 .testemonial-section{
-position: absolute;
-float: left;
+
 }
 
 .testemonial-content{
-position: relative;
-float: right;
 }
 
 /* css for form section */
