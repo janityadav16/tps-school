@@ -177,10 +177,11 @@ text-align: center;
 /* css for contact section */
 
 .contact-section{
-
-
+width: 25%;
+font-size: 15px;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .contact-content{
 text-decoration: none;
-overflow: hidden;
 }
