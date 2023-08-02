@@ -1,7 +1,7 @@
 /* css for header section */
 header{
    
-    margin: 10px;
+    margin: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: verdana;
@@ -30,23 +30,28 @@ header{
     word-spacing: 40px;
 }
 .navbar li{
-    float: left;
     word-spacing: 8px;
     display: inline-block;
     font-family: verdana;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 30px;
 }
 .navbar li a{
+    float: right;
     text-decoration: none;
     width: 80%;
     justify-content: space-between;
     padding:10px;
     word-spacing:8px;
     font-family: verdana;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     line-height: 30px;
+}
+.hotmail{
+    background-color: aqua;
+    padding-left: 22px;
+    padding-right: 22px;
 }
 /* css for you section */
 .you-section{
@@ -98,6 +103,7 @@ float:left;
 word-spacing:8px;
 line-height: 40px;
 font-size: 20px;
+padding: 20px;
 }
 
 .us-content{
@@ -115,6 +121,7 @@ word-spacing:8px;
 line-height: 40px;
 font-size: 20px;
 background-color: whitesmoke;
+padding: 20px;
 }
 
 .students-content{
@@ -124,15 +131,16 @@ font-family: verdana;
 border: 2px solid black;
 line-height: 35px;
 font-size: 20px;
+
 }
 /* css for testemonial section */
 
 .testemonial-section{
-
+position: absolute;
 }
 
 .testemonial-content{
-
+position: relative;
 }
 
 /* css for form section */
