@@ -137,6 +137,7 @@ font-size: 20px;
 /* css for testemonial section */
 
 .testemonial-section{
+     /* background-image: url(testimonial_img1.jpg); */
 }
 
 .testemonial-content{
@@ -161,9 +162,12 @@ background-color: whitesmoke;
     font-family:verdana;
     text-decoration: none;
 }
-input[type=name]{
+#ak{
     align-items: center;
+    display: grid;
 }
+
+
 /* css for footer section */
 .footer-section{
     text-decoration: none;
@@ -175,7 +179,6 @@ text-decoration: none;
 text-align: center;
 
 }
-
 /* css for contact section */
 
 .contact-section{
