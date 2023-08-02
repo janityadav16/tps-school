@@ -5,7 +5,7 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: verdana;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 30px;
 }
 /* css for logo section */
@@ -60,7 +60,7 @@ header{
     width: 100%;
     word-spacing:8px;
     font-family: verdana;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 30px;
 }
 .you-content{
@@ -71,7 +71,7 @@ header{
     justify-content: left;
     word-spacing:8px;
     font-family: verdana;
-    font-size: 20px;
+    font-size: 15px;
 }
 .you-img section{
     width: 50%;
@@ -154,6 +154,10 @@ background-color: whitesmoke;
     text-align: center;
     font-size: 40px;
     font-family:verdana;
+}
+
+input[type="text"]{
+    align-items: center;
 }
 
 /* css for footer section */
