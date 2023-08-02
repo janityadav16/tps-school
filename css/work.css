@@ -137,10 +137,10 @@ font-size: 20px;
 /* css for testemonial section */
 
 .testemonial-section{
-
 }
 
 .testemonial-content{
+    
 }
 
 /* css for form section */
@@ -155,14 +155,14 @@ background-color: whitesmoke;
     font-family:verdana;
 }
 
-input[type="text"]{
-    align-items: center;
-}
 .form-content a{
     text-align: center;
     font-size: 20px;
     font-family:verdana;
     text-decoration: none;
+}
+input[type=name]{
+    align-items: center;
 }
 /* css for footer section */
 .footer-section{
