@@ -161,7 +161,12 @@ background-color: whitesmoke;
 input[type="text"]{
     align-items: center;
 }
-
+.form-content a{
+    text-align: center;
+    font-size: 20px;
+    font-family:verdana;
+    text-decoration: none;
+}
 /* css for footer section */
 .footer-section{
     text-decoration: none;
