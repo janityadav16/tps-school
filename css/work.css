@@ -73,13 +73,8 @@ header{
     font-family: verdana;
     font-size: 15px;
 }
-.you-img section{
-    width: 50%;
-    font-family: verdana;
-    font-size: 15px;
-    word-spacing: 8px;
-    float: left;
-    line-height: 25px;
+.you-content h2{
+    color: aqua;
 }
 /* css for me section */
 .me-section{
