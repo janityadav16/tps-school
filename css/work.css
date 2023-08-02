@@ -39,9 +39,9 @@ header{
 .navbar li a{
     float: right;
     text-decoration: none;
-    width: 80%;
+    width: 50%;
     justify-content: space-between;
-    padding:10px;
+    padding:0;
     word-spacing:8px;
     font-family: verdana;
     font-size: 15px;
@@ -50,6 +50,7 @@ header{
 }
 .hotmail{
     background-color: aqua;
+    background-size: cover;
     padding-left: 22px;
     padding-right: 22px;
 }
