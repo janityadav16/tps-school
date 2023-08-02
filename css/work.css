@@ -1,11 +1,10 @@
 /* css for header section */
 header{
-    width: 80%;
-    margin-left: 10px;
-    margin-right: 10px;
+   
+    margin: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-style: verdana;
+    font-family: verdana;
     font-size: 20px;
     line-height: 30px;
 }
@@ -19,25 +18,32 @@ header{
     width: 80%;
     margin: 0;
     padding: 0;
-    font-style: verdana;
+    font-family: verdana;
     word-spacing: 8px;
     font-size: 20px;
     line-height: 30px;
+}
+.navbar ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    word-spacing: 40px;
 }
 .navbar li{
     float: left;
     word-spacing: 8px;
     display: inline-block;
-    font-style: verdana;
+    font-family: verdana;
     font-size: 20px;
     line-height: 30px;
 }
 .navbar li a{
     text-decoration: none;
+    width: 80%;
     justify-content: space-between;
-    padding:20px;
+    padding:10px;
     word-spacing:8px;
-    font-style: verdana;
+    font-family: verdana;
     font-size: 20px;
     color: black;
     line-height: 30px;
@@ -47,7 +53,7 @@ header{
     float: left;
     width: 100%;
     word-spacing:8px;
-    font-style: verdana;
+    font-family: verdana;
     font-size: 20px;
     line-height: 30px;
 }
@@ -58,12 +64,12 @@ header{
     line-height: 30px;
     justify-content: left;
     word-spacing:8px;
-    font-style: verdana;
+    font-family: verdana;
     font-size: 20px;
 }
 .you-img section{
     width: 50%;
-    font-style: verdana;
+    font-family: verdana;
     font-size: 20px;
     word-spacing: 8px;
     float: left;
@@ -75,11 +81,12 @@ float:left;
 word-spacing:8px;
 line-height: 40px;
 font-size: 20px;
+background-color: whitesmoke;
 }
 .me-content{
 float:left;
 word-spacing:8px;
-font-style: verdana;
+font-family: verdana;
 border: 2px solid black;
 line-height: 35px;
 font-size: 20px;
@@ -96,23 +103,24 @@ font-size: 20px;
 .us-content{
 float:left;
 word-spacing:8px;
-font-style: verdana;
+font-family: verdana;
 border: 2px solid black;
 line-height: 35px;
 font-size: 20px;
 }
 /* css for student section */
-.student-section{
+.students-section{
 float:left;
 word-spacing:8px;
 line-height: 40px;
 font-size: 20px;
+background-color: whitesmoke;
 }
 
-.student-content{
+.students-content{
 float:left;
 word-spacing:8px;
-font-style: verdana;
+font-family: verdana;
 border: 2px solid black;
 line-height: 35px;
 font-size: 20px;
@@ -130,15 +138,13 @@ font-size: 20px;
 /* css for form section */
 
 .form-section{
-border-radius: 50%;
-border: 1px solid white;
-
+background-color: whitesmoke;
 }
 
-.form-content{
-    border-radius: 50%;
-    border: 1px solid white;
-    align-items: center;
+.form-content h1{
+    text-align: center;
+    font-size: 40px;
+    font-family:verdana;
 }
 
 /* css for footer section */
