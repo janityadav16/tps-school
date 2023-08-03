@@ -192,6 +192,7 @@ width: 80%;
 
 .footer-1 {
 	text-decoration: none;
+    justify-content: space-between;
 	text-align: right;
     width: 25%;
 }
