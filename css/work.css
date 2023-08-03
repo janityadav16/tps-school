@@ -67,7 +67,7 @@ header {
 	word-spacing: 8px;
 	font-family: verdana;
 	font-size: 15px;
-	line-height: 25px;
+	
 }
 
 .you-content {
@@ -89,7 +89,7 @@ header {
 .me-section {
 	float: left;
 	word-spacing: 8px;
-	line-height: 40px;
+	line-height: 30px;
 	font-size: 20px;
 	padding-right: 20px;
 	background-color: whitesmoke;
@@ -107,7 +107,7 @@ header {
 .us-section {
 	float: right;
 	word-spacing: 8px;
-	line-height: 40px;
+	line-height: 30px;
 	font-size: 20px;
 	padding: 20px;
 }
@@ -125,7 +125,7 @@ header {
 .students-section {
 	float: left;
 	word-spacing: 8px;
-	line-height: 40px;
+	line-height: 30px;
 	font-size: 20px;
 	background-color: whitesmoke;
 	padding: 20px;
