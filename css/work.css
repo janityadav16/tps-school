@@ -1,187 +1,201 @@
 /* css for header section */
-header{
-   
-    margin: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: verdana;
-    font-size: 25px;
-    line-height: 30px;
+header {
+
+	margin: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: verdana;
+	font-size: 25px;
+	line-height: 30px;
 }
+
 /* css for logo section */
-.logo{
-    float: left;
-   width: 20%;
+.logo {
+	float: left;
+	width: 20%;
 }
+
 /* css for navbar section */
-.navbar{
-    width: 80%;
-    margin: 0;
-    padding: 0;
-    font-family: verdana;
-    word-spacing: 8px;
-    font-size: 20px;
-    line-height: 30px;
+.navbar {
+	width: 80%;
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+	word-spacing: 8px;
+	font-size: 20px;
+	line-height: 30px;
 }
-.navbar ul{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    word-spacing: 40px;
+
+.navbar ul {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	word-spacing: 40px;
 }
-.navbar li{
-    word-spacing: 8px;
-    display: inline-block;
-    font-family: verdana;
-    font-size: 15px;
-    line-height: 30px;
+
+.navbar li {
+	word-spacing: 8px;
+	display: inline-block;
+	font-family: verdana;
+	font-size: 15px;
+	line-height: 30px;
 }
-.navbar li a{
-    float: right;
-    text-decoration: none;
-    width: 50%;
-    justify-content: space-between;
-    padding:0;
-    word-spacing:8px;
-    font-family: verdana;
-    font-size: 15px;
-    color: black;
-    line-height: 30px;
+
+.navbar li a {
+	float: right;
+	text-decoration: none;
+	width: 50%;
+	justify-content: space-between;
+	padding: 0;
+	word-spacing: 8px;
+	font-family: verdana;
+	font-size: 15px;
+	color: black;
+	line-height: 30px;
 }
-.hotmail{
-    background-color: aqua;
-    background-size: cover;
-    padding-left: 22px;
-    padding-right: 22px;
+
+.hotmail {
+	background-color: aqua;
+	background-size: cover;
+	padding-left: 22px;
+	padding-right: 22px;
 }
+
 /* css for you section */
-.you-section{
-    float: left;
-    width: 100%;
-    word-spacing:8px;
-    font-family: verdana;
-    font-size: 15px;
-    line-height: 25px;
+.you-section {
+	float: left;
+	width: 100%;
+	word-spacing: 8px;
+	font-family: verdana;
+	font-size: 15px;
+	line-height: 25px;
 }
-.you-content{
-    width: 50%;
-    float: left;
-    text-align: left;
-    line-height: 40px;
-    justify-content: left;
-    word-spacing:8px;
-    font-family: verdana;
-    font-size: 15px;
+
+.you-content {
+	width: 50%;
+	float: left;
+	text-align: left;
+	line-height: 40px;
+	justify-content: left;
+	word-spacing: 8px;
+	font-family: verdana;
+	font-size: 15px;
 }
-.you-content h2{
-    color: aqua;
+
+.you-content h2 {
+	color: aqua;
 }
+
 /* css for me section */
-.me-section{
-float:left;
-word-spacing:8px;
-line-height: 40px;
-font-size: 20px;
-padding-right: 20px;
-background-color: whitesmoke;
+.me-section {
+	float: left;
+	word-spacing: 8px;
+	line-height: 40px;
+	font-size: 20px;
+	padding-right: 20px;
+	background-color: whitesmoke;
 }
-.me-content{
-float:left;
-word-spacing:8px;
-font-family: verdana;
-padding-right: 20px;
-font-size: 20px;
+
+.me-content {
+	float: left;
+	word-spacing: 8px;
+	font-family: verdana;
+	padding-right: 20px;
+	font-size: 20px;
 }
 
 /* css for us-section */
-.us-section{
-float:left;
-word-spacing:8px;
-line-height: 40px;
-font-size: 20px;
-padding: 20px;
+.us-section {
+	float: left;
+	word-spacing: 8px;
+	line-height: 40px;
+	font-size: 20px;
+	padding: 20px;
 }
 
-.us-content{
-float:left;
-word-spacing:8px;
-font-family: verdana;
-border: 2px solid black;
-line-height: 35px;
-font-size: 20px;
+.us-content {
+	float: left;
+	word-spacing: 8px;
+	font-family: verdana;
+	border: 2px solid black;
+	line-height: 35px;
+	font-size: 20px;
 }
+
 /* css for student section */
-.students-section{
-float:left;
-word-spacing:8px;
-line-height: 40px;
-font-size: 20px;
-background-color: whitesmoke;
-padding: 20px;
+.students-section {
+	float: left;
+	word-spacing: 8px;
+	line-height: 40px;
+	font-size: 20px;
+	background-color: whitesmoke;
+	padding: 20px;
 }
 
-.students-content{
-float:left;
-word-spacing:8px;
-font-family: verdana;
-border: 2px solid black;
-line-height: 35px;
-font-size: 20px;
+.students-content {
+	float: left;
+	word-spacing: 8px;
+	font-family: verdana;
+	border: 2px solid black;
+	line-height: 35px;
+	font-size: 20px;
 
 }
+
 /* css for testemonial section */
 
-.testemonial-section{
-     /* background-image: url(testimonial_img1.jpg); */
+.testemonial-section {
+	/* background-image: url(testimonial_img1.jpg); */
 }
 
-.testemonial-content{
-    
-}
+.testemonial-content {}
 
 /* css for form section */
 
-.form-section{
-background-color: whitesmoke;
+.form-section {
+	background-color: whitesmoke;
 }
 
-.form-content h1{
-    text-align: center;
-    font-size: 40px;
-    font-family:verdana;
+.form-content h1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: verdana;
 }
 
-.form-content a{
-    text-align: center;
-    font-size: 20px;
-    font-family:verdana;
-    text-decoration: none;
+.form-content a {
+	text-align: center;
+	font-size: 20px;
+	font-family: verdana;
+	text-decoration: none;
 }
-#ak{
-    align-items: center;
-    display: grid;
+
+#ak {
+	align-items: center;
+	display: grid;
 }
 
 
 /* css for footer section */
-.footer-section{
-    text-decoration: none;
-    text-align: center;
+.footer-section {
+	text-decoration: none;
+	text-align: center;
 }
 
-.footer-content{
-text-decoration: none;
-text-align: center;
+.footer-content {
+	text-decoration: none;
+	text-align: center;
 
 }
+
 /* css for contact section */
 
-.contact-section{
-width: 25%;
-font-size: 15px;
-text-decoration: none;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+.contact-section {
+	width: 25%;
+	font-size: 15px;
+	text-decoration: none;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.contact-content{
-text-decoration: none;
+
+.contact-content {
+	text-decoration: none;
 }
