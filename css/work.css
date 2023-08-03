@@ -191,20 +191,20 @@ width: 80%;
 }
 
 .footer-1 {
-    display: inline;
+    
 	text-decoration: none;
     justify-content: space-between;
 	text-align: right;
     width: 25%;
 }
 .footer-2 {
-    display: inline;
+   
 	text-decoration: none;
 	text-align: center;
     width: 25%;
 }
 .footer-3 {
-    display: inline;
+   
 	text-align: right;
     width: 25%;
 }
