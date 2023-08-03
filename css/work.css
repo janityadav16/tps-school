@@ -1,12 +1,12 @@
 /* css for header section */
 header {
 
-	margin: 20px;
+	/* margin: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-family: verdana;
 	font-size: 25px;
-	line-height: 30px;
+	line-height: 30px; */
 }
 
 /* css for logo section */
@@ -17,7 +17,7 @@ header {
 
 /* css for navbar section */
 .navbar {
-	width: 80%;
+	
 	margin: 0;
 	padding: 0;
 	font-family: verdana;
@@ -26,10 +26,9 @@ header {
 }
 
 .navbar ul {
-	width: 100%;
+	
 	padding: 0;
 	margin: 0;
-	word-spacing: 40px;
 }
 
 .navbar li {
@@ -43,23 +42,28 @@ header {
 .navbar li a {
 	float: right;
 	text-decoration: none;
-	width: 50%;
+	
 	justify-content: space-between;
-	padding: 0;
-	word-spacing: 8px;
+	padding:10px;
 	font-family: verdana;
 	font-size: 15px;
 	color: black;
 	line-height: 30px;
 }
 
-.hotmail {
-	background-color: aqua;
-	background-size: cover;
-	padding-left: 22px;
-	padding-right: 22px;
+.navbar li a:hover{
+color: aqua;
 }
 
+.hotmail {
+	background-color: aqua;
+	color: white;
+}
+
+.hotmail:hover{
+	background-color: aqua;
+	color: white;
+}
 /* css for you section */
 .you-section {
 	float: left;
@@ -189,21 +193,17 @@ width: 80%;
 	text-align: center;
 }
 
-.footer-content {
+.footer-1 {
+	text-decoration: none;
+	text-align: right;
+    width: 25%;
+}
+.footer-2 {
 	text-decoration: none;
 	text-align: center;
-
+    width: 25%;
 }
-
-/* css for contact section */
-
-.contact-section {
-	width: 25%;
-	font-size: 15px;
-	text-decoration: none;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.contact-content {
-	text-decoration: none;
+.footer-3 {
+	text-align: right;
+    width: 25%;
 }
