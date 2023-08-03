@@ -21,7 +21,7 @@ header {
 	margin: 0;
 	padding: 0;
 	font-family: verdana;
-	word-spacing: 8px;
+	
 	font-size: 20px;
 	line-height: 30px;
 }
@@ -34,10 +34,10 @@ header {
 }
 
 .navbar li {
-	word-spacing: 8px;
+	
 	display: inline-block;
 	font-family: verdana;
-	font-size: 15px;
+	font-size: 12px;
 	line-height: 30px;
 }
 
@@ -75,7 +75,7 @@ header {
 	width: 50%;
 	float: left;
 	text-align: left;
-	line-height: 40px;
+	line-height: 20px;
 	justify-content: left;
 	word-spacing: 8px;
 	font-family: verdana;
@@ -117,7 +117,7 @@ header {
 	float: left;
 	word-spacing: 8px;
 	font-family: verdana;
-	border: 2px solid black;
+	padding-right: 20px;
 	line-height: 35px;
 	font-size: 20px;
 }
@@ -136,19 +136,28 @@ header {
 	float: left;
 	word-spacing: 8px;
 	font-family: verdana;
-	border: 2px solid black;
+    padding-right: 20px;
 	line-height: 35px;
 	font-size: 20px;
 
 }
 
-/* css for testemonial section */
+/* css for testimonial section */
 
-.testemonial-section {
-	/* background-image: url(testimonial_img1.jpg); */
+.testimonial-section {
+background-image: url('testimonial_img1.jpg');
+background-repeat: no-repeat;
+background-size: auto;
+width: 80%;
 }
 
-.testemonial-content {}
+.testimonial-content {
+background-image: url('testimonial_img1.jpg');
+background-repeat: no-repeat;
+background-size: auto;
+width: 80%;
+
+}
 
 /* css for form section */
 
