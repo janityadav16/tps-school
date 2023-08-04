@@ -5,6 +5,7 @@ header {
 	font-size: 25px;
 	line-height: 30px; 
 	margin-bottom: 20px;
+	margin-top: 20px;
 
 }
 
@@ -69,7 +70,8 @@ color: aqua;
 	word-spacing: 8px;
 	font-family: verdana;
 	font-size: 15px;
-	
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .you-content {
@@ -81,6 +83,8 @@ color: aqua;
 	word-spacing: 8px;
 	font-family: verdana;
 	font-size: 15px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .you-content h2 {
@@ -95,6 +99,8 @@ color: aqua;
 	font-size: 20px;
 	padding-right: 20px;
 	background-color: whitesmoke;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .me-content {
@@ -103,6 +109,8 @@ color: aqua;
 	font-family: verdana;
 	padding-right: 20px;
 	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 /* css for us-section */
@@ -112,6 +120,8 @@ color: aqua;
 	line-height: 30px;
 	font-size: 20px;
 	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .us-content {
@@ -121,6 +131,8 @@ color: aqua;
 	padding-right: 20px;
 	line-height: 35px;
 	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 /* css for student section */
@@ -131,6 +143,8 @@ color: aqua;
 	font-size: 20px;
 	background-color: whitesmoke;
 	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .students-content {
@@ -140,16 +154,20 @@ color: aqua;
     padding-right: 20px;
 	line-height: 35px;
 	font-size: 20px;
-
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 /* css for testimonial section */
 .testimonial-section{
-	margin-bottom: 100px;
+	
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 .tes1{
 	text-align: center;
 	position: relative;
+
 }
 .tes2{
 	position: absolute;
@@ -163,6 +181,8 @@ color: aqua;
 	background-color: whitesmoke;
 	width: 100%;
 	height: 400px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 .form h1{
 	padding-top: 100px;
