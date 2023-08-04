@@ -3,7 +3,7 @@ header {
 	padding-top: 20px;
 	font-family: verdana;
 	font-size: 25px;
-	line-height: 30px; 
+	line-height: 30px;
 	margin-bottom: 20px;
 	margin-top: 20px;
 
@@ -25,13 +25,13 @@ header {
 }
 
 .navbar ul {
-	
+
 	padding: 0;
 	margin: 0;
 }
 
 .navbar li {
-	
+
 	display: inline-block;
 	font-family: verdana;
 	font-size: 12px;
@@ -41,17 +41,17 @@ header {
 .navbar li a {
 	float: right;
 	text-decoration: none;
-	
+
 	justify-content: space-between;
-	padding:10px;
+	padding: 10px;
 	font-family: verdana;
 	font-size: 15px;
 	color: black;
 	line-height: 30px;
 }
 
-.navbar li a:hover{
-color: aqua;
+.navbar li a:hover {
+	color: aqua;
 }
 
 .hotmail {
@@ -59,10 +59,11 @@ color: aqua;
 	color: white;
 }
 
-.hotmail:hover{
+.hotmail:hover {
 	background-color: aqua;
 	color: white;
 }
+
 /* css for you section */
 .you-section {
 	float: left;
@@ -151,7 +152,7 @@ color: aqua;
 	float: left;
 	word-spacing: 8px;
 	font-family: verdana;
-    padding-right: 20px;
+	padding-right: 20px;
 	line-height: 35px;
 	font-size: 20px;
 	margin-bottom: 20px;
@@ -159,17 +160,19 @@ color: aqua;
 }
 
 /* css for testimonial section */
-.testimonial-section{
-	
+.testimonial-section {
+
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
-.tes1{
+
+.tes1 {
 	text-align: center;
 	position: relative;
 
 }
-.tes2{
+
+.tes2 {
 	position: absolute;
 	bottom: 90px;
 	right: 350px;
@@ -184,17 +187,20 @@ color: aqua;
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
-.form h1{
+
+.form h1 {
 	padding-top: 100px;
 	font-size: 44px;
 }
-.input-box{
+
+.input-box {
 	padding-bottom: 15px;
 	text-align: center;
 	justify-content: space-between;
 	border-radius: 50%;
 }
-.input-box input{
+
+.input-box input {
 	width: 300px;
 	size: 50px;
 	height: 30px;
@@ -202,29 +208,34 @@ color: aqua;
 	border-radius: 10%;
 }
 
-.form-btn{
+.form-btn {
 	margin-left: 520px;
 	height: 50px;
 	margin-right: 200px;
 	border: none;
 	color: black;
 	background-color: aqua;
-	
-}
-/* css for footer section */
-.footer{
-margin-top: 50px;
-margin-bottom: 20px;
+
 }
 
-.foo-img{
+.form-btn:hover{
+	color: black;
+	background-color: white;
+}
+/* css for footer section */
+.footer {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.foo-img {
 	display: inline-block;
 	width: 25%;
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
 
-.foo-con{
+.foo-con {
 	word-spacing: 10px;
 	line-height: 24px;
 	color: grey;
@@ -234,7 +245,7 @@ margin-bottom: 20px;
 	margin-top: 20px;
 }
 
-.f1{
+.f1 {
 	display: inline-block;
 	width: 25%;
 	text-decoration: none;
@@ -242,7 +253,7 @@ margin-bottom: 20px;
 	margin-top: 20px;
 }
 
-.f2{
+.f2 {
 	display: inline-block;
 	width: 25%;
 	text-decoration: none;
@@ -250,9 +261,9 @@ margin-bottom: 20px;
 	margin-top: 20px;
 }
 
-.f3{
+.f3 {
 	display: inline-block;
 	width: 25%;
 	text-decoration: none;
-	
+
 }
