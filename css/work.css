@@ -145,6 +145,15 @@ color: aqua;
 .testimonial-section{
 	margin-bottom: 100px;
 }
+.tes1{
+	text-align: center;
+	position: relative;
+}
+.tes2{
+	position: absolute;
+	bottom: 90px;
+	right: 350px;
+}
 
 /* css for form section */
 
