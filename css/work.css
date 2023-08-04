@@ -214,11 +214,14 @@ color: aqua;
 /* css for footer section */
 .footer{
 margin-top: 50px;
+margin-bottom: 20px;
 }
 
 .foo-img{
 	display: inline-block;
 	width: 25%;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .foo-con{
@@ -227,22 +230,29 @@ margin-top: 50px;
 	color: grey;
 	display: inline-block;
 	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .f1{
 	display: inline-block;
 	width: 25%;
 	text-decoration: none;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .f2{
 	display: inline-block;
 	width: 25%;
 	text-decoration: none;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .f3{
 	display: inline-block;
 	width: 25%;
 	text-decoration: none;
+	
 }
