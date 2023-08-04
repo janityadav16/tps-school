@@ -142,20 +142,8 @@ color: aqua;
 }
 
 /* css for testimonial section */
-
-.testimonial-section {
-background-image: url('testimonial_img1.jpg');
-background-repeat: no-repeat;
-background-size: auto;
-width: 80%;
-}
-
-.testimonial-content {
-background-image: url('testimonial_img1.jpg');
-background-repeat: no-repeat;
-background-size: auto;
-width: 80%;
-
+.testimonial-section{
+	margin-bottom: 100px;
 }
 
 /* css for form section */
