@@ -2310,7 +2310,7 @@
 
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <form class="form-inline" action="/action_page.php">
+  <form class="form-inline">
     <input class="form-control mr-sm-2" type="text" placeholder="Search">
     <button class="btn btn-success" type="submit">Search</button>
   </form>
@@ -2431,7 +2431,7 @@
 
 <div class="container">
   <h2>Stacked form</h2>
-  <form action="/action_page.php">
+  <form>
     <div class="form-group">
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
@@ -2453,7 +2453,7 @@
 <div class="container">
   <h2>Inline form</h2>
   <p>Make the viewport larger than 576px wide to see that all of the form elements are inline and left-aligned. On small screens, the form groups will stack horizontally.</p>
-  <form class="form-inline" action="/action_page.php">
+  <form class="form-inline">
     <label for="email">Email:</label>
     <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
     <label for="pwd">Password:</label>
@@ -2471,7 +2471,7 @@
 <div class="container">
   <h2>Inline form</h2>
   <p>Make the viewport larger than 576px wide to see that all of the form elements are inline and left-aligned. On small screens, the form groups will stack horizontally.</p>
-  <form class="form-inline" action="/action_page.php">
+  <form class="form-inline">
     <label for="email2" class="mb-2 mr-sm-2">Email:</label>
     <input type="text" class="form-control mb-2 mr-sm-2" id="email2" placeholder="Enter email" name="email">
     <label for="pwd2" class="mb-2 mr-sm-2">Password:</label>
@@ -2489,7 +2489,7 @@
 <div class="container">
   <h2>Form Grid</h2>
   <p>Create two form elements that appear side by side with .row and .col:</p>
-  <form action="/action_page.php">
+  <form>
     <div class="row">
       <div class="col">
         <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
@@ -2536,7 +2536,7 @@
 <div class="container">
   <h2>Form Validation</h2>
   <p>In this example, we use <code>.was-validated</code> to indicate what's missing before submitting the form:</p>
-  <form action="/action_page.php" class="was-validated">
+  <form class="was-validated">
     <div class="form-group">
       <label for="uname">Username:</label>
       <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
@@ -2565,7 +2565,7 @@
   <h2>Form Validation</h2>
   <p>In this example, we use <code>.needs-validation</code>, which will add the validation effect AFTER the form has been submitting (if there's anything missing).</p>
   <p>Try to submit this form before filling out the input fields, to see the effect.</p>
-  <form action="/action_page.php" class="needs-validation" novalidate>
+  <form class="needs-validation" novalidate>
     <div class="form-group">
       <label for="uname">Username:</label>
       <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
@@ -2593,7 +2593,7 @@
 <div class="container">
   <h2>Form control: input</h2>
   <p>The form below contains two input elements; one of type text and one of type password:</p>
-  <form action="/action_page.php">
+  <form>
     <div class="form-group">
       <label for="usr">Name:</label>
       <input type="text" class="form-control" id="usr" name="username">
@@ -2610,7 +2610,7 @@
 <div class="container">
   <h2>Form control: textarea</h2>
   <p>The form below contains a textarea for comments:</p>
-  <form action="/action_page.php">
+  <form>
     <div class="form-group">
       <label for="comment">Comment:</label>
       <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
@@ -2623,7 +2623,7 @@
 <div class="container">
   <h2>Form control: checkbox</h2>
   <p>The form below contains three checkboxes. The first option is checked by default, and the last option is disabled:</p>
-  <form action="/action_page.php">
+  <form>
     <div class="form-check">
       <label class="form-check-label" for="check1">
         <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>Option 1
@@ -2647,7 +2647,7 @@
 <div class="container">
   <h2>Form control: inline checkbox</h2>
   <p>The form below contains three inline checkboxes:</p>
-  <form action="/action_page.php">
+  <form>
     <div class="form-check-inline">
       <label class="form-check-label" for="check1">
         <input type="checkbox" class="form-check-input" id="check1" name="vehicle1" value="something" checked>Option 1
@@ -2671,7 +2671,7 @@
 <div class="container">
   <h2>Form control: radio buttons</h2>
   <p>The form below contains three radio buttons. The first option is checked by default, and the last option is disabled:</p>
-  <form action="/action_page.php">
+  <form>
     <div class="form-check">
       <label class="form-check-label" for="radio1">
         <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Option 1
@@ -2695,7 +2695,7 @@
 <div class="container">
   <h2>Form control: inline radio buttons</h2>
   <p>The form below contains three inline radio buttons. The first option is checked by default, and the last option is disabled:</p>
-  <form action="/action_page.php">
+  <form>
     <div class="form-check-inline">
       <label class="form-check-label" for="radio1">
         <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Option 1
@@ -2710,6 +2710,33 @@
       <label class="form-check-label">
         <input type="radio" class="form-check-input" disabled>Option 3
       </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+
+<div class="container">
+  <h2>Form control: select</h2>
+  <p>The form below contains two dropdown menus (select lists):</p>
+  <form>
+    <div class="form-group">
+      <label for="sel1">Select list (select one):</label>
+      <select class="form-control" id="sel1" name="sellist1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+      <br>
+      <label for="sel2">Mutiple select list (hold shift to select more than one):</label>
+      <select multiple class="form-control" id="sel2" name="sellist2">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
