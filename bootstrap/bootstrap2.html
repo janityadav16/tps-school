@@ -2997,7 +2997,7 @@
   <h2>Custom Radio Buttons</h2>
   <p>To create a custom radio button, wrap a container element, like div, with a class of .custom-control and .custom-radio around the radio button. Then add the .custom-control-input to the radio button.</p>
   <p><strong>Tip:</strong> If you use labels for accompanying text, add the .custom-control-label class to it. Note that the value of the for attribute should match the id of the radio:</p>
-  <form action="/action_page.php">
+  <form>
     <div class="custom-control custom-radio">
       <input type="radio" class="custom-control-input" id="customRadio" name="example1">
       <label class="custom-control-label" for="customRadio">Custom radio</label>
@@ -3030,7 +3030,7 @@
 <div class="container mt-3">
   <h2>Custom Select Menu</h2>
   <p>To create a custom select menu, add the .custom-select class to the select element:</p>
-  <form action="/action_page.php">
+  <form>
     <select name="cars" class="custom-select mb-3">
       <option selected>Custom Select Menu</option>
       <option value="volvo">Volvo</option>
@@ -3038,6 +3038,32 @@
       <option value="audi">Audi</option>
     </select>
     <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+
+<div class="container mt-3">
+  <h2>Custom Select Menu Sizing</h2>
+  <p>Use the .custom-select-sm class to create a small select menu and the .custom-select-lg class for a large one:</p>
+  <form>
+    <select class="custom-select custom-select-sm mb-3">
+      <option selected>Small Custom Select Menu</option>
+      <option value="volvo">Volvo</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+    <select name="cars" class="custom-select mb-3">
+      <option selected>Default Custom Select Menu</option>
+      <option value="volvo">Volvo</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+    <select name="cars" class="custom-select custom-select-lg mb-3">
+      <option selected>Large Custom Select Menu</option>
+      <option value="volvo">Volvo</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
   </form>
 </div>
 
