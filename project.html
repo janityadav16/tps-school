@@ -58,14 +58,24 @@
 
 .gallery-row {
     display: flex;
-    justify-content:space-between;
-    margin-bottom: 0;
+    justify-content: center;
+    /* Center the gallery row */
+    margin-bottom: 20px;
 }
 
 .gallery-item {
     flex-basis: calc(20% - 10px);
+    /* Three items per row with a 10px gap */
     overflow: hidden;
-    padding: 0 0 0 0;
+    padding: 0 5px 0 5px;
+
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 
@@ -139,39 +149,23 @@
     </div>
     <div class="gallery-row">
         <div class="gallery-item">
-            <img src="img/4.jpeg" alt="Image 6">
+            <img src="/Users/janit/Desktop/killua.jpeg" alt="Image 6">
         </div>
         <div class="gallery-item">
-            <img src="img/5.jpeg" alt="Image 7">
+            <img src="/Users/janit/Desktop/zoro.jpeg" alt="Image 7">
         </div>
         <div class="gallery-item">
-            <img src="img/6.jpeg" alt="Image 8">
+            <img src="/Users/janit/Desktop/Kaneki.jpeg" alt="Image 8">
         </div>
         <div class="gallery-item">
-            <img src="img/6.jpeg" alt="Image 9">
+            <img src="/Users/janit/Desktop/dabi.jpeg" alt="Image 9">
         </div>
         <div class="gallery-item">
-            <img src="img/6.jpeg" alt="Image 10">
+            <img src="/Users/janit/Desktop/goku.jpeg" alt="Image 10">
         </div>
     </div>
     <!-- Add more gallery rows as needed -->
 </section>
-<!-- <section class="gallery-section" id="gallery">
-    <div class="gallery-content">
-      <div class="gallery-content" style="width: 100%;">
-        <img src="/Users/janit/Desktop/sukuna.jpeg" style="width: 20%;">
-        <img src="/Users/janit/Desktop/luffy.jpeg" style="width: 20%;">
-        <img src="/Users/janit/Desktop/itachi.jpeg" style="width: 20%;">
-        <img src="/Users/janit/Desktop/madara.jpeg" style="width: 20%;">
-        <img src="/Users/janit/Desktop/sasuke.jpeg" style="width: 20%;">
-      </div>
-        <div>
-        <img src="/Users/janit/Desktop/killua.jpeg" style="width: 20%;">
-        <img src="/Users/janit/Desktop/zoro.jpeg" style="width: 20%;">
-        <img src="/Users/janit/Desktop/Kaneki.jpeg" style="width: 20%;">
-        <img src="/Users/janit/Desktop/dabi.jpeg" style="width: 20%;">
-        <img src="/Users/janit/Desktop/goku.jpeg" style="width: 20%;">
-    </div> -->
 <section class="contact-section" id="contact">
     <div class="contact-content">
       <div>
