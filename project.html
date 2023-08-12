@@ -6,8 +6,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project</title>
     <style>
- 
+ /* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+}
 
+/* Global styles */
+body {
+    font-family: verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Header styles */
+.navbar {
+    float: right;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+.navbar li a:hover {
+    color: blue;
+}
+
+/* Banner styles */
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* About section styles */
+.about-content {
+    padding: 20px;
+}
+
+.about-content h2 {
+    font-size: 24px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+.about-image {
+    width: 50%;
+    float: right;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color: whitesmoke;
+    float: left;
+}
+
+/* Gallery section styles */
+.gallery-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.gallery-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    flex-basis: calc(20% - 10px);
+    overflow: hidden;
+    padding: 0 5px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.contact-section{
+    width: 100%;
+}
+.contact-content {
+    text-align: center;
+}
+
+.contact-content iframe {
+    width: 50%;
+    height: 450px;
+    display: inline-block;
+    border: none;
+}
+
+.contact-content img {
+    margin-top: 20px;
+}
+.about-image {
+    width: 100%;
+    float: right;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.about-image-container img {
+    width: 48%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color: whitesmoke;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+}
+
+footer a {
+    color: #333;
+    display: inline-block;
+}
     </style>
 </head>
 <body>
@@ -34,27 +187,17 @@
       <h2>NOTICE</h2>
       <p>In the realm of law enforcement, elusive figures emerge — wanted criminals with bounties on their heads. From tech-savvy masterminds to nimble-fingered thieves, they've become legends. As bounty hunters converge, a test of wit and determination unfolds, the outcome uncertain. A shadowy dance between justice and defiance continues.<br>As the bounty on their heads continues to grow, a motley assembly of bounty hunters, detectives, and seekers of justice converge in pursuit. Each one driven by their own motivations — be it redemption, vengeance, or the sheer thrill of the chase. The hunt for these fugitives transcends mere law enforcement; it becomes a test of wit, strategy, and determination.</p>
    </div>
-   <div class="about-image" style="width: 50%;">
-       <p style="float: right;">
-       <img src="/Users/janit/Desktop/WhatsApp Image 2023-08-12 at 12.18.58 PM.jpeg" style="height: 50%; width: 50%; border: 3px solid black; border-radius: 10%; background-color: whitesmoke; float: left;">One of the most notorious man alive if you every see him anywhere don't look in his eyes if you want to live by any mistake don't try to fight him at any cost if you value your life<br><b>REQUIREMENT:If you are able to destroy a country on your own only then try to catch him</b><br><b>SPECIALITY:His mangekyo sharingan and master of genjitsu and also youngest person to entre Anbu cops</b>
-       </p>
-   </div>
-       <div class="about-image" style="width: 50%;">
-       <p  style="float: right;">
-       <img src="/Users/janit/Desktop/wanted.jpeg" style="height: 50%; width: 50%; border: 3px solid black; border-radius: 10%; background-color: whitesmoke;"> A man who is both feared and respected by his enemies and friends also known as "copy Ninja or kakashi of sharingan" he is a man who has copied over thousand of jutsu and part of two great ninja war and also 6th hokage<br><b>REQUIREMENT:fast and have a huge reservior of chakra expert in inheret jutsu</b>
-       </p>
-   </div>
-       <div class="about-image" style="width: 50%;">
-       <p style="float: right;">
-       <img src="/Users/janit/Desktop/pic.jpeg" style="height: 50%; width: 50%; border: 3px solid black; border-radius: 10%; background-color: whitesmoke;"><B>NO INFORMATION AVALIABLE and only thing is that highly dangerous, pray to god you never meet him</B>
-       </p>
-   </div>
-       <div class="about-image" style="width: 50%;">
-       <p style="float: right;">
-       <img src="/Users/janit/Desktop/WhatsApp Image 2023-08-12 at 12.18.58 PM (1).jpeg" style="height: 50%; width: 50%; border: 3px solid black; border-radius: 10%; background-color: whitesmoke;">A top level sorcerer and also strongest man in jujutsu high school and also a funny man
-       </p>
-   </div>
-   </div>
+   <div class="about-image" style="width: 100%;">
+    <div class="about-image-container">
+        <img src="/Users/janit/Desktop/WhatsApp Image 2023-08-12 at 12.18.58 PM.jpeg" alt="Image 1">
+        <img src="/Users/janit/Desktop/wanted.jpeg" alt="Image 2">
+    </div>
+</div>
+<div class="about-image" style="width: 100%;">
+    <div class="about-image-container">
+<img src="/Users/janit/Desktop/pic.jpeg">
+<img src="/Users/janit/Desktop/WhatsApp Image 2023-08-12 at 12.18.58 PM (1).jpeg">
+</div>
     </div>
 </section>
 <section class="gallery-section" id="gallary">
@@ -99,19 +242,18 @@
       <div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12963.137415719699!2d76.2970782!3d27.9208153!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x856fc05bac451d02!2sTakshila%20Public%20School!5e1!3m2!1sen!2sin!4v1671283667095!5m2!1sen!2sin" width="50%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
       </div>
+      <div>
      <img src="/Users/janit/Desktop/mockup/icon.PNG">+91 9352460700
-
+    </div>
     </div>
 </section>
 <footer>
-    <nav>
-        <ul>
+        <ul style="display: inline-block;">
             <li><a href="#banner">HOME</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
     <b>&copy;2023. All Rights Reserved, Takshila Public School, Behror </b>
 </footer>
 </body>
