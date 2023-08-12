@@ -113,7 +113,7 @@ body {
     width: 50%;
     height: 450px;
     display: inline-block;
-    border: none;
+    border: 3px solid black;
 }
 
 .contact-content img {
@@ -126,6 +126,24 @@ body {
     text-align: center;
 }
 
+.about-section{
+    margin-right: 20px;
+    margin-left:20px;
+}
+
+.about-content{
+    font-size: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.about-content h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .about-image-container {
     display: flex;
     justify-content: space-between;
@@ -133,27 +151,36 @@ body {
 }
 
 .about-image-container img {
-    width: 48%;
-    height: 600px;
+    width: 280px;
+    height: 400px;
     border: 3px solid black;
     border-radius: 10%;
     background-color: whitesmoke;
 }
 
-
-footer {
-    text-align: center;
+.footer {
+    float: right;
     padding: 10px;
-    background-color: #f9f9f9;
-    font-size: 14px;
-    display: inline-block;
 }
 
-footer a {
-    color: #333;
-    display: inline-block;
-
+.footer ul {
+    list-style: none;
 }
+
+.footer li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer li a:hover {
+    color: blue;
+}
+
     </style>
 </head>
 <body>
@@ -182,18 +209,18 @@ footer a {
    </div>
    <div class="about-image" style="width: 96%;">
     <div class="about-image-container">
-        <img src="/Users/janit/Desktop/WhatsApp Image 2023-08-12 at 12.18.58 PM.jpeg" alt="Image 1">This man name is itachi uchiha be aware of him and if every encountered never look into his eyes if you want to live
-        <img src="/Users/janit/Desktop/wanted.jpeg" alt="Image 2">This man name is kakashi also known as copy ninja never try to mess with him he has copied over 1000 jutsu
+        <img src="/Users/janit/Desktop/WhatsApp Image 2023-08-12 at 12.18.58 PM.jpeg" alt="Image 1"><p style="font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;">This man name is itachi uchiha be aware of him and if every encountered never look into his eyes if you want to live</p>
+        <img src="/Users/janit/Desktop/wanted.jpeg" alt="Image 2"><p style="font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;">This man name is kakashi also known as copy ninja never try to mess with him he has copied over 1000 jutsu</p>
     </div>
 </div>
 <div class="about-image" style="width: 98%;">
     <div class="about-image-container">
-<img src="/Users/janit/Desktop/pic.jpeg">Always pray to god that you never encounter him in your life if you encounter him there is no one in his world who can save you from him 
-<img src="/Users/janit/Desktop/WhatsApp Image 2023-08-12 at 12.18.58 PM (1).jpeg">this man is a very capable and dangerous man never try to mess with him if you ever encounter him try to run for ypur life without looking back and never make him remove his eye band because second he remove his eye patch you are dead
+<img src="/Users/janit/Desktop/pic.jpeg"><p style="font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Always pray to god that you never encounter him in your life if you encounter him there is no one in his world who can save you from him </p>
+<img src="/Users/janit/Desktop/WhatsApp Image 2023-08-12 at 12.18.58 PM (1).jpeg"><p style="font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;">this man is a very capable and dangerous man never try to mess with him if you ever encounter him try to run for your life without looking back because second he remove his eye patch you are dead</p>
 </div>
     </div>
 </section>
-<section class="gallery-section" id="gallary">
+<section class="gallery-section" id="gallery">
     <h2>Gallary</h2>
     <div class="gallery-row">
         <div class="gallery-item">
@@ -241,13 +268,15 @@ footer a {
     </div>
 </section>
 <footer>
-        <ul style="display: inline-block;">
+        <ul>
             <li><a href="#banner">HOME</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+        <section>
     <b>&copy;2023. All Rights Reserved, Takshila Public School, Behror </b>
+</section>
 </footer>
 </body>
 </html>
